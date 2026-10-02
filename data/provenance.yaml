@@ -1,0 +1,45 @@
+# Where this data comes from and what was done to it.
+
+source:
+  name: Movement Distribution
+  publisher: AI for Good at Meta (formerly Data for Good at Meta)
+  page: https://data.humdata.org/dataset/movement-distribution
+  api: https://data.humdata.org/api/3/action/package_show?id=movement-distribution
+  licence:
+    applied: CC BY (HDX license_id cc-by), used as CC BY 4.0
+    attribution_required: true
+    share_alike: false
+    credit: Data for Good at Meta, Movement Distribution, Humanitarian Data Exchange (https://data.humdata.org/dataset/movement-distribution)
+  retention: HDX keeps about 90 days; older files are removed from the dataset
+
+kept:
+  note: |
+    Every file HDX has served is kept, unchanged, and never deleted. The
+    first twelve CSVs and the readme were fetched on 2026-09-29 by
+    study-geoai-algo-py's mirror_hdx_meta.py and adopted here with
+    01_download.py --from after checking every sha256. manifest.json is the
+    record of every file.
+  files: 13
+  days: 2026-06-01 to 2026-08-31
+  days_present: 76
+  days_missing: [2026-08-04, 2026-08-05, 2026-08-07, 2026-08-09, 2026-08-10, 2026-08-13, 2026-08-17, 2026-08-19, 2026-08-20, 2026-08-21, 2026-08-22, 2026-08-24, 2026-08-26, 2026-08-28, 2026-08-29, 2026-08-30]
+
+contents:
+  rows: 11735260
+  regions: 38943
+  countries: 217
+  japan: {rows: 546312, regions: 1804}
+  rows_with_a_negative_share: 301846
+  duplicates_dropped: 617668
+  duplicates_with_different_values: 0
+  days_split_across_files: [2026-06-19, 2026-06-23, 2026-06-27]
+
+modifications:
+  original: none. Meta's files, byte for byte.
+  parquet:
+    - one table a year from every kept CSV
+    - duplicate rows kept once, from the file HDX changed last
+    - ds as a date, polygon_level as an integer, the share as a double, the rest text
+    - a source_file column added, naming the original each row came from
+    - sorted by country, gadm_id, ds, home_to_ping_distance_category
+    - written without bloom filters

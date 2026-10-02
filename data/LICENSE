@@ -1,0 +1,36 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Everything under this directory comes from Movement Distribution, published
+by AI for Good at Meta (formerly Data for Good at Meta) on the Humanitarian
+Data Exchange:
+
+  https://data.humdata.org/dataset/movement-distribution
+
+HDX lists the dataset's licence as Creative Commons Attribution International
+(CC BY, license_id cc-by); it is used here as CC BY 4.0.
+
+Credit:
+
+  Data for Good at Meta, Movement Distribution, Humanitarian Data Exchange
+  (https://data.humdata.org/dataset/movement-distribution)
+
+The files under movement-distribution/original/ are Meta's own, byte for
+byte, including files HDX no longer lists; manifest.json records each one's
+size, sha256 and dates.
+
+The Parquet under movement-distribution/ was made from them:
+
+  - the CSVs were combined into one table a year
+  - rows that appear in two files (the same day, region and category, with the
+    same values) were kept once, from the file HDX changed last
+  - ds became a date, polygon_level an integer and
+    distance_category_ping_fraction a double; the other columns are the text
+    of the CSV
+  - a source_file column was added, naming the original each row came from
+  - rows were sorted by country, region, day and distance category
+  - values were not changed
+
+The code that fetches, checks and converts is MIT, in the repository this
+dataset was built from (https://github.com/yuiseki/meta-move-dist), and does
+not apply here.

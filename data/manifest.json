@@ -1,0 +1,267 @@
+{
+ "datasets": {
+  "movement-distribution": {
+   "page": "https://data.humdata.org/dataset/movement-distribution",
+   "title": "Movement Distribution",
+   "license_id": "cc-by",
+   "license_title": "Creative Commons Attribution International (CC BY)",
+   "dataset_date": "[2026-01-17T00:00:00 TO 2026-09-01T23:59:59]",
+   "metadata_modified": "2026-09-16T20:19:41.595967",
+   "sources": [
+    {
+     "resource_id": "379e2fb7-c73e-4600-b3b8-814abe9ba59c",
+     "name": "Meta Movement Distributions Maps_2026-08-01_to_08-16.csv",
+     "file": "meta-movement-distributions-maps_2026-08-01_to_08-16.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/379e2fb7-c73e-4600-b3b8-814abe9ba59c/download/meta-movement-distributions-maps_2026-08-01_to_08-16.csv",
+     "format": "CSV",
+     "size": 122061926,
+     "last_modified": "2026-09-05T18:30:03.905493",
+     "http_last_modified": null,
+     "bytes": 122061926,
+     "sha256": "c26bae45dc7766bd63bfed99ed4e97482f2243e57f494f244e4f589051e0e656",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "7321e08f-eac6-46e8-ba43-98b2bcce04b4",
+     "name": "Movement Distribution 2026-07-17_to_2026-08-01..csv",
+     "file": "movement-distribution-2026-07-17_to_2026-08-01.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/7321e08f-eac6-46e8-ba43-98b2bcce04b4/download/movement-distribution-2026-07-17_to_2026-08-01..csv",
+     "format": "CSV",
+     "size": 195205665,
+     "last_modified": "2026-08-12T19:06:49.121867",
+     "http_last_modified": null,
+     "bytes": 195205665,
+     "sha256": "6fde27cdd06d31e76a801d420cc2fb430c01bb9221df1ca5f2dfb2095969160e",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "4d0fae21-fdec-4922-88ce-771a3df78de8",
+     "name": "Movement Distribution Maps_2026-07-13_to_2026-07-16.csv",
+     "file": "movement-distribution-maps_2026-07-13_to_2026-07-16.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/4d0fae21-fdec-4922-88ce-771a3df78de8/download/1922039342088483_2026-07-13_to_2026-07-16.csv",
+     "format": "CSV",
+     "size": 48830570,
+     "last_modified": "2026-07-23T16:59:44.633250",
+     "http_last_modified": null,
+     "bytes": 48830570,
+     "sha256": "0d1e6e61be911a7f16f661fc8299d1af599e9b8496fde1be7d19bb235307313a",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "3945dd91-4b4b-489b-8032-f1d78f34129b",
+     "name": "Movement Distribution Maps_2026-07-09_to_2026-07-12.csv",
+     "file": "movement-distribution-maps_2026-07-09_to_2026-07-12.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/3945dd91-4b4b-489b-8032-f1d78f34129b/download/1922039342088483_2026-07-09_to_2026-07-12.csv",
+     "format": "CSV",
+     "size": 48818584,
+     "last_modified": "2026-07-23T16:58:41.065603",
+     "http_last_modified": null,
+     "bytes": 48818584,
+     "sha256": "9b03fb9abecc54cdfa5f4f0affd3960caebe6842ae7ccafad96f4c25c20734a7",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "b453f280-75e2-47d9-9258-2b3c8b947513",
+     "name": "Movement Distribution Maps_2026-07-05_to_2026-07-08.csv",
+     "file": "movement-distribution-maps_2026-07-05_to_2026-07-08.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/b453f280-75e2-47d9-9258-2b3c8b947513/download/1922039342088483_2026-07-05_to_2026-07-08.csv",
+     "format": "CSV",
+     "size": 48807641,
+     "last_modified": "2026-07-23T16:56:40.187030",
+     "http_last_modified": null,
+     "bytes": 48807641,
+     "sha256": "e63fe41159bc0acf021b3885be89699255b15c496ce4af8601e3363d85176f00",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "72276380-d9a7-4cbc-b359-c67439529582",
+     "name": "Movement Distribution Maps_2026-07-01_to_2026-07-04.csv",
+     "file": "movement-distribution-maps_2026-07-01_to_2026-07-04.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/72276380-d9a7-4cbc-b359-c67439529582/download/1922039342088483_2026-07-01_to_2026-07-04.csv",
+     "format": "CSV",
+     "size": 48829047,
+     "last_modified": "2026-07-23T16:54:30.364432",
+     "http_last_modified": null,
+     "bytes": 48829047,
+     "sha256": "2287ffd06d48dd18d3c13ca30214d9d1e8b960aacffcdebf1831d9e732f6b3f8",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "35729797-b783-4ace-9c7e-69aa8eec52ae",
+     "name": "Movement Distribution 2026_June_27-2026_July_01.csv",
+     "file": "movement-distribution-2026_june_27-2026_july_01.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/35729797-b783-4ace-9c7e-69aa8eec52ae/download/1922039342088483_combined_part4.csv",
+     "format": "CSV",
+     "size": 43989919,
+     "last_modified": "2026-07-23T16:05:47.961157",
+     "http_last_modified": null,
+     "bytes": 43989919,
+     "sha256": "d31b4da054275a97e75713551f1bdc060ae5d02527bd98f5ee4b2426e140b7a0",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "f9420380-03ad-45c8-a7b3-d09db8e238c3",
+     "name": "Movement Distribution 2026_June_23-2026_June_27.csv",
+     "file": "movement-distribution-2026_june_23-2026_june_27.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/f9420380-03ad-45c8-a7b3-d09db8e238c3/download/1922039342088483_combined_part3.csv",
+     "format": "CSV",
+     "size": 43986206,
+     "last_modified": "2026-07-23T16:04:13.632942",
+     "http_last_modified": null,
+     "bytes": 43986206,
+     "sha256": "1d3f86876ac326e72ffc01b470714693b66f11b06b31e6a51507c4dcce83aa07",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "c89a5d03-dfcb-4524-96f6-6843c9d4f140",
+     "name": "Movement Distribution 2026_June_19-2026_June_23.csv",
+     "file": "movement-distribution-2026_june_19-2026_june_23.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/c89a5d03-dfcb-4524-96f6-6843c9d4f140/download/1922039342088483_combined_part2.csv",
+     "format": "CSV",
+     "size": 43981952,
+     "last_modified": "2026-07-23T16:02:29.039687",
+     "http_last_modified": null,
+     "bytes": 43981952,
+     "sha256": "85fda30c814f0bc7d7cbf1448880a79b7011ff525534d26447ca87a959929768",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "fbb1d2ca-612a-4455-b900-3bf3bd8e5138",
+     "name": "Movement Distribution 15_June_2026-19_June_2026.csv",
+     "file": "movement-distribution-15_june_2026-19_june_2026.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/fbb1d2ca-612a-4455-b900-3bf3bd8e5138/download/1922039342088483_combined_part1.csv",
+     "format": "CSV",
+     "size": 43987887,
+     "last_modified": "2026-07-23T15:58:29.051039",
+     "http_last_modified": null,
+     "bytes": 43987887,
+     "sha256": "81c175369c80032e975e2f56066a1051106542e1a02cd3fac5c67b202c5ab7ba",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "fa8f788d-1279-4714-a9a7-090a9e37a1f3",
+     "name": "Movement Distribution 1 June - 15 June, 2026",
+     "file": "movement-distribution-1-june-15-june-2026.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/fa8f788d-1279-4714-a9a7-090a9e37a1f3/download/an8l-mjzybbfi61knhanxevcafdsnowv9ldm-knldupaephv3kfsb_yypum9vxdwd6nnx1qexmsuopwtfn4eejwanoisj5d0.csv",
+     "format": "CSV",
+     "size": 195156308,
+     "last_modified": "2026-07-08T14:49:15.341447",
+     "http_last_modified": null,
+     "bytes": 195156308,
+     "sha256": "5f7c72112281942a0e3d1cc3c2527b0520d559a0e7255b70c7234b797f04f381",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:17+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "767a05fe-0bf6-4a0b-96dc-8525baefa327",
+     "name": "Movement Distribution Readme - Data for Good at Meta.pdf",
+     "file": "movement-distribution-readme-data-for-good-at-meta.pdf",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/767a05fe-0bf6-4a0b-96dc-8525baefa327/download/movement-distribution-readme-data-for-good-at-meta.pdf",
+     "format": "PDF",
+     "size": 120831,
+     "last_modified": "2024-01-18T15:31:11.546743",
+     "http_last_modified": "Thu, 18 Jan 2024 15:31:12 GMT",
+     "bytes": 120831,
+     "sha256": "9b8eeb1c51b1e2526dd31ffe1d0a2ca742cfc97b40b36caec105c4c19e21d2e2",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:20+09:00",
+     "on_hdx": true
+    },
+    {
+     "resource_id": "adb691f7-56c2-49fc-93b6-0611c01f0ed0",
+     "name": "Meta Movement Distribution Maps_2026-08-18_to_2026-08-31_.csv",
+     "file": "meta-movement-distribution-maps_2026-08-18_to_2026-08-31.csv",
+     "url": "https://data.humdata.org/dataset/32167ba5-ef67-4254-8eaf-04cdb8b90c1d/resource/adb691f7-56c2-49fc-93b6-0611c01f0ed0/download/movement-distribution-maps_2026-08-18_to_2026-08-31_.csv",
+     "format": "CSV",
+     "size": 61028653,
+     "last_modified": "2026-09-16T20:16:06.433591",
+     "http_last_modified": null,
+     "bytes": 61028653,
+     "sha256": "c9239f909a2de47f248807c43b97aeafb1344001ce4a1a15972c317e40f38876",
+     "md5_checked": true,
+     "fetched": "2026-09-29T16:16:20+09:00",
+     "on_hdx": true
+    }
+   ],
+   "source_rows": 12352928,
+   "dedup": {
+    "rows": 11735260,
+    "duplicates": 617668,
+    "conflicts": 0,
+    "dropped_by_file": [
+     [
+      "movement-distribution-1-june-15-june-2026.csv",
+      308752,
+      "2026-06-15",
+      "2026-06-16"
+     ],
+     [
+      "movement-distribution-2026-07-17_to_2026-08-01.csv",
+      154472,
+      "2026-08-01",
+      "2026-08-01"
+     ],
+     [
+      "movement-distribution-2026_june_27-2026_july_01.csv",
+      154444,
+      "2026-07-01",
+      "2026-07-01"
+     ]
+    ]
+   },
+   "missing_days": [
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-07",
+    "2026-08-09",
+    "2026-08-10",
+    "2026-08-13",
+    "2026-08-17",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-22",
+    "2026-08-24",
+    "2026-08-26",
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30"
+   ],
+   "days_split_across_files": [
+    "2026-06-19",
+    "2026-06-23",
+    "2026-06-27"
+   ],
+   "outputs": {
+    "movement_distribution_2026.parquet": {
+     "rows": 11735260,
+     "bytes": 89054310,
+     "ds_min": "2026-06-01",
+     "ds_max": "2026-08-31"
+    }
+   },
+   "built": "2026-10-02T13:26:07+09:00"
+  }
+ }
+}
