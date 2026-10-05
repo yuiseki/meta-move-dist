@@ -7,7 +7,7 @@ here stays, marked on_hdx false once HDX no longer lists it. The record of
 every file, with its sha256 and HDX's own dates, is data/manifest.json.
 
     uv run python scripts/01_download.py
-    uv run python scripts/01_download.py --from /www/html/static/hdx-meta
+    uv run python scripts/01_download.py --from /sata_hdd_24tb/www/html/static/hdx-meta
 
 --from adopts the files of an earlier mirror (study-geoai-algo-py's
 mirror_hdx_meta.py keeps one on z.yuiseki.net): its manifest entry for the
